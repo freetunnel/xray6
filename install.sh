@@ -34,8 +34,7 @@ install_xray() {
     touch /var/log/xray/access2.log
     touch /var/log/xray/error2.log
 
-# / / Ambil Xray Core Version Terbaru
-bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data --version v25.9.11
+bash -c "$(curl -L https://github.com/XTLS/Xray-install/raw/main/install-release.sh)" @ install -u www-data --version 1.6.1
 }
 
 # Issue SSL certificate using acme.sh
